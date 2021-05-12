@@ -1,0 +1,51 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Book List</title>
+    </head>    
+    <body>
+    <div class="main-container">
+    <div class="container">
+        <h1>Add book</h1>
+        <form id="library" class="library">
+    <div id="details" class="item">
+        <label for="book-name">Title</label>
+        <input type="text" id="book-name" placeholder="Book's title">
+        <small>Something's wrong</small>
+    </div>
+    <div class="item">
+        <label for="book-author">Author</label>
+        <input type="text" id="book-author" placeholder="Book's author">
+        <small>Something's wrong</small>
+    </div>
+    <div class="item">
+        <label for="book-code">ISBN</label>
+        <input type="text" id="book-code" placeholder="Book's code number" >
+        <small>Something's wrong</small>
+    </div>
+    <button type="submit" id="btn">Insert</button>
+        </form>
+    </div>
+    <table id="list">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>ISBN</th>
+                <th></th>
+        </tr>
+        </thead>
+        <tbody id="list-items">
+
+        </tbody>
+    </table>
+    </div>
+    <script src="app.js"></script>  
+    </body>
+    </html>
+    <!-- <i class="delete-btn"><i class="fas fa-trash"></i> -->

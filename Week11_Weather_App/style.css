@@ -1,0 +1,128 @@
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+
+header {
+	display: flex;
+}
+
+
+.title {
+	width: 600px;
+	margin-top: 50px;
+	margin-left:800px;
+	font-size: 50px;
+}
+
+#city {
+	margin:20px 20px;
+	padding: 10px 30px;
+    border: 0px solid;
+	border-radius: 15px;;
+    box-sizing: border-box;
+    background: rgb(0, 0, 0);
+    border-bottom: lightgrey 1.5px solid;
+    overflow: hidden;
+    outline: none;
+    color: rgb(243, 243, 243);
+    box-shadow: 0 0 10px 4px grey;
+    transition: 0.5s;
+}
+
+#today-btn {
+    border: 0;
+    color: black;
+    font-size: 15px;
+    background:rgb(42, 236, 42);
+    text-align: center;
+    padding: 10px 7px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 15%;
+}
+
+#prognozaBtn {
+    border: 0;
+    color: black;
+    font-size: 15px;
+    background:rgb(42, 236, 42);
+    text-align: center;
+    padding: 10px 7px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 15%;
+}
+
+#city-input {
+margin:10px 0px 0px 650px;
+}
+
+#city-input i {
+		position: relative;
+	    right: 50px;
+		top: 5px;
+		font-size: 21px;
+		color: white;
+		pointer-events: none;
+	  }
+	  .input-wrap > input:focus {
+		padding: 9px 20px;
+		width: 225px;
+	  }
+	  .input-wrap > input:focus + i.fas {
+		display: none;
+	  }
+	  
+#weather-now {
+	display: none;
+    margin: auto;
+    margin-top: 1px;
+    padding: 26px 18px;
+    width: 130px;
+    height:330px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, .2);
+}
+
+.card {
+	border-radius: 9px;
+	font-size: 15px;
+	flex-wrap: wrap;
+}
+
+#prognozaDiv {
+    padding: 1.5rem;
+    border-radius: 16px;
+    color: black;
+    display: grid;
+	grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+	transition: .2s;
+    margin: 0;
+}
+
+.prognozaBox {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.prognozaHours {
+	margin: auto;
+    margin-top: 5%;
+    padding: 20px;
+    width: 100px;
+    height:300px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, .2);
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	border: 1px solid beige;
+} 
+
+#cityInputError {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+    color:red;
+}

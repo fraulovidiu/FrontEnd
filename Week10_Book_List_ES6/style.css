@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgb(39, 39, 233), blue);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 30px 250px;
+}
+
+#library {
+    font-size: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.item {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: rgb(37, 16, 226);
+    padding: 20px 40px;
+    outline: none;
+    color: rgb(246, 246, 246);
+    transition: 0.5s;
+}
+
+#library input {
+    border-top: 0;
+    border-bottom:0;
+    border-left: 0;
+    border-right: 0;
+
+}
+.item:hover {
+    box-shadow: 0 0 10px 4px rgb(13, 65, 236);
+}
+
+#btn {
+    margin-left: 230px;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    background: rgb(47, 79, 219);
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 20%;
+}
+
+.item.error input {
+    border-color:#e74c3c;
+    border-radius:4px;
+}
+
+.item small{
+    visibility: hidden;
+}
+
+.item.success input {
+    border-color:#2ecc71;
+    border-radius:4px;
+}
+
+.item.error small{
+    visibility: visible;
+    color:#e74c3c;
+}
+
+p.success{
+    background-color:rgb(11, 189, 11);
+    width: 100%;
+    color:white;
+    font-size:18px;
+    text-align: center;
+    padding: 3px;
+}
+.delete-btn i {
+    visibility: visible;
+}
+
+#list {
+    padding: 20px 20px;
+    margin: 50px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    border: 0 beige;
+    color: white;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+
+
+
+
