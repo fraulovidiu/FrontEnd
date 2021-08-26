@@ -1,66 +1,65 @@
 *{
-   box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+div.logo img {
+    margin-left: 800px;
 }
 
 ul {
-    list-style:none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 760px;
 }
 
 a {
     text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
 }
 
-nav{
+#about-me {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:  white;
-
+    align-items:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px 0px 0px 150px;
 }
 
-nav ul {
-    display:flex;
+#intro-img img {
+    margin-left: 200px;;
 }
 
-nav ul li a{
-    margin: 25px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:black;
-    font-size: 20px;
+div#intro {
+    text-align: center;
 }
 
-.logo {
-    font-family: Bangers;
-    font-size: 30px;
-    color: black;
+div.col {
+    text-align: center;
 }
 
-.container {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 30px;
+div.container {
+    margin-top: 100px;
 }
 
-.container p:nth-child(1) {
-    font-size: 30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:black
+div.description {
+    margin-top: 100px
 }
 
-.container p:nth-child(2) {
-    font-size: 40px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
+div.image {
+    margin-left: 200px
 }
 
-.container p:nth-child(3) {
-    font-size: 30px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+div.social-media {
+    margin-top:100px;
+    margin-left:-400px
 }
 
-.about {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-right: 30px;
+div.social-media ul {
+    padding: 0px;
 }
